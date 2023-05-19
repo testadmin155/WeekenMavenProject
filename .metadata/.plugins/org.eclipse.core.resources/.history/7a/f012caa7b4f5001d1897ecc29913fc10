@@ -1,0 +1,25 @@
+package FirstMavenProject.FirstMavenProject;
+
+import org.testng.annotations.Test;
+
+public class PersonalLoan {
+	
+	@Test
+	public void CarLoanwithWeb()
+	{
+		System.out.println("this is a CarLoan from WEB");
+	}
+	
+	@Test
+	public void CarLoanwithAPP()
+	{
+		System.out.println("this is a CarLoan from APP");
+	}
+	
+	@Test
+	public void CarLoanwithBranch()
+	{
+		System.out.println("this is a CarLoan from Branch");
+	}
+
+}

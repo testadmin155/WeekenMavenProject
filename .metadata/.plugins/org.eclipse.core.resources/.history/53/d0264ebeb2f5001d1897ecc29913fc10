@@ -1,0 +1,10 @@
+package FirstMavenProject.FirstMavenProject;
+
+public class FirstTestcase {
+	
+	public void Login()
+	{
+		System.out.println("this is a login test");
+	}
+
+}

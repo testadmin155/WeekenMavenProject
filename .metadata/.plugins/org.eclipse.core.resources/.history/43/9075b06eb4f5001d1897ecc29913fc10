@@ -1,0 +1,13 @@
+package FirstMavenProject.FirstMavenProject;
+
+import org.testng.annotations.Test;
+
+public class FirstTestcase {
+	
+	@Test
+	public void Login()
+	{
+		System.out.println("this is a login test");
+	}
+
+}
