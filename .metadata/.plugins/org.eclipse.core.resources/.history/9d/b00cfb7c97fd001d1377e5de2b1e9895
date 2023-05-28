@@ -1,0 +1,25 @@
+package POM;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.FindBy;
+
+public class LoginPage {
+
+	
+	//username field
+	@FindBy(id="username")
+	WebElement emailId;
+	
+	//password field
+	@FindBy(id="password")
+	WebElement pswd;
+	
+	//login button
+	@findBy(id="loginBtn")
+	WebElement LgnBtn;
+	
+	
+}

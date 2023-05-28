@@ -1,0 +1,16 @@
+package POM;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class LoginPage {
+
+	//username field
+	//password field
+	//login button
+	
+	 WebDriver driver = new ChromeDriver();
+	driver.
+	@FindBy(id="username")
+	WebElement emailId;
+}

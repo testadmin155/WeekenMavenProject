@@ -1,0 +1,11 @@
+package POM;
+
+public class LoginPage {
+
+	//username field
+	//password field
+	//login button
+	
+	@FindBy(id="username")
+	WebElement emailId;
+}

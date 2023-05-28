@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-19T18:34:09Z" name="Suite" finished-at="2023-05-19T18:34:09Z" duration-ms="89">
+  <suite started-at="2023-05-28T21:13:45Z" name="Default suite" finished-at="2023-05-28T21:13:52Z" duration-ms="6337">
     <groups>
-      <group name="sanity">
-        <method signature="CarLoan.CarLoanwithAPP()[pri:0, instance:FirstMavenProject.FirstMavenProject.CarLoan@7e5c856f]" name="CarLoanwithAPP" class="FirstMavenProject.FirstMavenProject.CarLoan"/>
-        <method signature="PersonalLoan.PersonalLoanwithWeb()[pri:0, instance:FirstMavenProject.FirstMavenProject.PersonalLoan@12d2ce03]" name="PersonalLoanwithWeb" class="FirstMavenProject.FirstMavenProject.PersonalLoan"/>
-      </group> <!-- sanity -->
     </groups>
-    <test started-at="2023-05-19T18:34:09Z" name="Test" finished-at="2023-05-19T18:34:09Z" duration-ms="89">
-      <class name="FirstMavenProject.FirstMavenProject.CarLoan">
-        <test-method signature="CarLoanwithAPP()[pri:0, instance:FirstMavenProject.FirstMavenProject.CarLoan@7e5c856f]" started-at="2023-05-19T18:34:09Z" name="CarLoanwithAPP" finished-at="2023-05-19T18:34:09Z" duration-ms="9" status="PASS">
+    <test started-at="2023-05-28T21:13:45Z" name="Default test" finished-at="2023-05-28T21:13:52Z" duration-ms="6337">
+      <class name="FirstMavenProject.FirstMavenProject.MainTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:FirstMavenProject.FirstMavenProject.MainTest@68702e03]" started-at="2023-05-28T21:13:37Z" name="setup" finished-at="2023-05-28T21:13:45Z" duration-ms="8102" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CarLoanwithAPP -->
-      </class> <!-- FirstMavenProject.FirstMavenProject.CarLoan -->
-      <class name="FirstMavenProject.FirstMavenProject.PersonalLoan">
-        <test-method signature="PersonalLoanwithWeb()[pri:0, instance:FirstMavenProject.FirstMavenProject.PersonalLoan@12d2ce03]" started-at="2023-05-19T18:34:09Z" name="PersonalLoanwithWeb" finished-at="2023-05-19T18:34:09Z" duration-ms="16" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="ValidLogin()[pri:0, instance:FirstMavenProject.FirstMavenProject.MainTest@68702e03]" started-at="2023-05-28T21:13:45Z" name="ValidLogin" finished-at="2023-05-28T21:13:52Z" duration-ms="6283" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PersonalLoanwithWeb -->
-      </class> <!-- FirstMavenProject.FirstMavenProject.PersonalLoan -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- ValidLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:FirstMavenProject.FirstMavenProject.MainTest@68702e03]" started-at="2023-05-28T21:13:52Z" name="teardown" finished-at="2023-05-28T21:13:53Z" duration-ms="914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- FirstMavenProject.FirstMavenProject.MainTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

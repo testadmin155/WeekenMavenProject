@@ -1,0 +1,34 @@
+package FirstMavenProject.FirstMavenProject;
+
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+
+import POM.BaseTest;
+import POM.LoginPage;
+
+public class MainTest extends BaseTest{
+
+	@BeforeSuite
+	public void setup()
+	{
+		launchURL("chrome");
+	}
+
+	@AfterSuite
+	public void teardown()
+	{
+		driver.close();
+	}
+	
+		@Test
+		public void ValidLogin()
+		{
+			LoginPage lp = new LoginPage(driver);
+			lp.validlogin("automationtestacademy@gmail.com", "Test@9999");
+		}
+		
+
+	
+
+}
