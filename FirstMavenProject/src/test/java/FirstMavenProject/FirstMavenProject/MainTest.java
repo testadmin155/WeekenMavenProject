@@ -1,5 +1,7 @@
 package FirstMavenProject.FirstMavenProject;
 
+import java.io.IOException;
+
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
@@ -26,13 +28,18 @@ public class MainTest extends BaseTest{
 		public void ValidLogin() throws InterruptedException
 		{
 			LoginPage lp = new LoginPage(driver);
-			HomePage hp = new HomePage(driver);
+			HomePage home = new HomePage(driver);
 			
 			lp.validlogin("automationtestacademy@gmail.com", "Test@9999");
 			Thread.sleep(5000);
-			hp.Entercode("9999");
+			home.Entercode("9999");
 		}
 		
+		@Test
+		public void GetDatafromExcel() throws IOException
+		{
+			getData("Selenium","Tutorname");
+		}
 
 	
 
