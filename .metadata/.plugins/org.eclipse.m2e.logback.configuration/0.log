@@ -1782,3 +1782,7 @@ java.net.URISyntaxException: Illegal character in path at index 16: file:/E:/Tes
 2023-06-04 21:31:32,906 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Testing Session\SeleniumTraining\WeekendMavenTraining\FirstMavenProject\src\main\resources
 2023-06-04 21:31:32,909 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-06-04 21:31:32,909 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Testing Session\SeleniumTraining\WeekendMavenTraining\FirstMavenProject\src\test\resources
+2023-06-04 22:13:26,155 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-04 22:13:26,157 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Testing Session\SeleniumTraining\WeekendMavenTraining\FirstMavenProject\src\main\resources
+2023-06-04 22:13:26,161 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-04 22:13:26,161 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Testing Session\SeleniumTraining\WeekendMavenTraining\FirstMavenProject\src\test\resources

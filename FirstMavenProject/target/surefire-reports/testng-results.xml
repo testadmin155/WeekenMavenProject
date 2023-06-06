@@ -1,31 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="53" started-at="2023-06-04T19:32:17Z" finished-at="2023-06-04T19:32:17Z">
+  <suite name="Suite" duration-ms="222" started-at="2023-06-06T21:11:44Z" finished-at="2023-06-06T21:11:45Z">
     <groups>
       <group name="regression">
-        <method signature="CarLoan.CarLoanwithBranch()[pri:0, instance:FirstMavenProject.FirstMavenProject.CarLoan@5c909414]" name="CarLoanwithBranch" class="FirstMavenProject.FirstMavenProject.CarLoan"/>
-        <method signature="PersonalLoan.PersonalLoanwithAPP()[pri:0, instance:FirstMavenProject.FirstMavenProject.PersonalLoan@433d61fb]" name="PersonalLoanwithAPP" class="FirstMavenProject.FirstMavenProject.PersonalLoan"/>
-        <method signature="PersonalLoan.PersonalLoanwithBranch()[pri:0, instance:FirstMavenProject.FirstMavenProject.PersonalLoan@433d61fb]" name="PersonalLoanwithBranch" class="FirstMavenProject.FirstMavenProject.PersonalLoan"/>
+        <method signature="CarLoan.CarLoanwithBranch()[pri:0, instance:FirstMavenProject.FirstMavenProject.CarLoan@20d28811]" name="CarLoanwithBranch" class="FirstMavenProject.FirstMavenProject.CarLoan"/>
+        <method signature="PersonalLoan.PersonalLoanwithAPP()[pri:0, instance:FirstMavenProject.FirstMavenProject.PersonalLoan@3cc2931c]" name="PersonalLoanwithAPP" class="FirstMavenProject.FirstMavenProject.PersonalLoan"/>
+        <method signature="PersonalLoan.PersonalLoanwithBranch()[pri:0, instance:FirstMavenProject.FirstMavenProject.PersonalLoan@3cc2931c]" name="PersonalLoanwithBranch" class="FirstMavenProject.FirstMavenProject.PersonalLoan"/>
       </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="CarLoan.CarLoanwithAPP()[pri:0, instance:FirstMavenProject.FirstMavenProject.CarLoan@20d28811]" name="CarLoanwithAPP" class="FirstMavenProject.FirstMavenProject.CarLoan"/>
+        <method signature="PersonalLoan.PersonalLoanwithWeb()[pri:0, instance:FirstMavenProject.FirstMavenProject.PersonalLoan@3cc2931c]" name="PersonalLoanwithWeb" class="FirstMavenProject.FirstMavenProject.PersonalLoan"/>
+      </group> <!-- sanity -->
     </groups>
-    <test name="Test" duration-ms="53" started-at="2023-06-04T19:32:17Z" finished-at="2023-06-04T19:32:17Z">
+    <test name="Test" duration-ms="222" started-at="2023-06-06T21:11:44Z" finished-at="2023-06-06T21:11:45Z">
       <class name="FirstMavenProject.FirstMavenProject.CarLoan">
-        <test-method status="PASS" signature="CarLoanwithBranch()[pri:0, instance:FirstMavenProject.FirstMavenProject.CarLoan@5c909414]" name="CarLoanwithBranch" duration-ms="1" started-at="2023-06-04T19:32:17Z" finished-at="2023-06-04T19:32:17Z">
+        <test-method status="PASS" signature="CarLoanwithAPP()[pri:0, instance:FirstMavenProject.FirstMavenProject.CarLoan@20d28811]" name="CarLoanwithAPP" duration-ms="0" started-at="2023-06-06T21:11:45Z" finished-at="2023-06-06T21:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLoanwithAPP -->
+        <test-method status="PASS" signature="CarLoanwithBranch()[pri:0, instance:FirstMavenProject.FirstMavenProject.CarLoan@20d28811]" name="CarLoanwithBranch" duration-ms="1" started-at="2023-06-06T21:11:45Z" finished-at="2023-06-06T21:11:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CarLoanwithBranch -->
+        <test-method status="PASS" signature="CarLoanwithWeb()[pri:0, instance:FirstMavenProject.FirstMavenProject.CarLoan@20d28811]" name="CarLoanwithWeb" duration-ms="6" started-at="2023-06-06T21:11:45Z" finished-at="2023-06-06T21:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLoanwithWeb -->
       </class> <!-- FirstMavenProject.FirstMavenProject.CarLoan -->
       <class name="FirstMavenProject.FirstMavenProject.PersonalLoan">
-        <test-method status="PASS" signature="PersonalLoanwithAPP()[pri:0, instance:FirstMavenProject.FirstMavenProject.PersonalLoan@433d61fb]" name="PersonalLoanwithAPP" duration-ms="10" started-at="2023-06-04T19:32:17Z" finished-at="2023-06-04T19:32:17Z">
+        <test-method status="PASS" signature="PersonalLoanwithAPP()[pri:0, instance:FirstMavenProject.FirstMavenProject.PersonalLoan@3cc2931c]" name="PersonalLoanwithAPP" duration-ms="27" started-at="2023-06-06T21:11:45Z" finished-at="2023-06-06T21:11:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PersonalLoanwithAPP -->
-        <test-method status="PASS" signature="PersonalLoanwithBranch()[pri:0, instance:FirstMavenProject.FirstMavenProject.PersonalLoan@433d61fb]" name="PersonalLoanwithBranch" duration-ms="0" started-at="2023-06-04T19:32:17Z" finished-at="2023-06-04T19:32:17Z">
+        <test-method status="PASS" signature="PersonalLoanwithBranch()[pri:0, instance:FirstMavenProject.FirstMavenProject.PersonalLoan@3cc2931c]" name="PersonalLoanwithBranch" duration-ms="2" started-at="2023-06-06T21:11:45Z" finished-at="2023-06-06T21:11:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PersonalLoanwithBranch -->
+        <test-method status="PASS" signature="PersonalLoanwithWeb()[pri:0, instance:FirstMavenProject.FirstMavenProject.PersonalLoan@3cc2931c]" name="PersonalLoanwithWeb" duration-ms="2" started-at="2023-06-06T21:11:45Z" finished-at="2023-06-06T21:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalLoanwithWeb -->
       </class> <!-- FirstMavenProject.FirstMavenProject.PersonalLoan -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
